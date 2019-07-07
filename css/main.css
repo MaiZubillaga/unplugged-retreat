@@ -111,7 +111,7 @@ footer {
 /* Header Styles */
 
 header {
-
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -119,6 +119,7 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 header figure {
@@ -126,7 +127,7 @@ header figure {
 }
 
 .header-divider {
-
+  width: 100%;
 }
 
 header nav {
@@ -134,17 +135,74 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 45%;
 }
 
 header nav ul li {
+  display: block;
+  list-style: none;
+}
+
+/* Footer */
+
+footer {
 
 }
 
+footer .content-wrapper {
+  width: 55%;
+  padding: 50px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+.footer-content {
+
+}
+
+.contact {
+
+}
+
+.contact ul {
+  padding: 0;
+}
+
+.contact ul li {
+  list-style: none;
+}
+
+footer .social {
+
+}
+
+footer .social-icons {
+
+}
+
+.social-icons ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+
+.social-icons ul li {
+  display: block;
+  list-style: none;
+}
+
+.copyright {
+
+}
 
 /* --------------------- Mobile Styles - Homepage -----------------*/
 
@@ -155,8 +213,8 @@ header nav ul li {
   flex-flow: row wrap;
 }
 
-main .content-wrapper {
-
+.content-wrapper {
+  width: 90%;
 }
 
 aside {
@@ -167,7 +225,7 @@ aside {
 }
 
 .form-description {
-
+  padding: 50px 0;
 }
 
 .form {
@@ -178,6 +236,15 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding: 55px 0;
+}
+
+.features p {
+  margin: 0;
+}
+
+.features article {
+  width: 55%;
 }
 
 .features .content-wrapper {
@@ -192,7 +259,8 @@ aside {
 }
 
 .fontawesome-icon {
-
+  padding: 50px 0;
+  
 }
 
 .features-item-description {
@@ -209,43 +277,10 @@ aside {
 
 }
 
-/* Footer */
-
-footer {
-
+reviews h3 {
+  width: 48%;
 }
 
-.footer-content {
-
-}
-
-.contact {
-
-}
-
-.contact ul {
-
-}
-
-.contact ul li {
-
-}
-
-footer .social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer .social-icons {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.copyright {
-
-}
 
 /* --------------------- Mobile Styles - About Page -----------------*/
 
